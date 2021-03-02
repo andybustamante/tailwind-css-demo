@@ -54,6 +54,25 @@ export default function Home() {
           </svg>
         </div>
       </div>
+      <main className="bg-gray-100 h-screen p-3">
+        <div className="border-gray-700 flex bg-white p-4 border-solid shadow-sm">
+          <div className="items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="20" viewBox="0 0 24 24" stroke="currentColor">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+              />
+            </svg>
+          </div>
+          <div className="flex-1">
+            <h2 className="text-indigo-300">Dan G.</h2>
+            <p className="text-sm">Bookkeeping expert</p>
+            <div className="flex flex-col">about me</div>
+          </div>
+        </div>
+      </main>
     </div>
   )
 }
