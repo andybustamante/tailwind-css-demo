@@ -2,7 +2,13 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'paro-blue': {
+          DEFAULT: '#53657D',
+        },
+      },
+    },
   },
   variants: {
     extend: {},
